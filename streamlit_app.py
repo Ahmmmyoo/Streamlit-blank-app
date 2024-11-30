@@ -7,3 +7,9 @@ st.write(
 
 # Made a slider
 number = st.slider("Pick a Number", 0, 100, 50)
+
+pets = ["Dog", "Cat", "Bird"]
+pet = st.radio("Pick a pet", pets)
+
+date = st.date_input("Pick a date")
+
